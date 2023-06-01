@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BUILD_JAR=$(ls /home/ubuntu/action/build/libs/pratice-githubAction-deploy-0.0.1-SNAPSHOT.jar)
-JAR_NAME=$(basenaem $BUILD_JAR)
+JAR_NAME=$(basename $BUILD_JAR)
 
 echo "> 현재 시간: $(date)" >> /home/ubuntu/action/deploy.log
 
