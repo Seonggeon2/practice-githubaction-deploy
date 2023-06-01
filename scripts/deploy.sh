@@ -5,7 +5,7 @@ JAR_NAME=$(basenaem $BUILD_JAR)
 
 echo "> 현재 시간: $(date)" >> /home/ubuntu/action/deploy.log
 
-echo "> build 파일명:  $JAR_NAME" >> /home/ubuntu/action/deploy.log
+echo "> build 파일명: $JAR_NAME" >> /home/ubuntu/action/deploy.log
 
 echo "> build 파일 복사" >> /home/ubuntu/action/deploy.log
 DEPLOY_PATH=/home/ubuntu/action/
