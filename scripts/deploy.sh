@@ -1,5 +1,4 @@
 #!/bin/bash
-
 BUILD_JAR=$(ls /home/ubuntu/action/build/libs/pratice-githubAction-deploy-0.0.1-SNAPSHOT.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
